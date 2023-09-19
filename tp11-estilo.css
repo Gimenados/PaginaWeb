@@ -1,0 +1,157 @@
+@font-face {
+	font-family: 'Nunito bold'; 
+	src: url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+}
+
+@font-face {
+	font-family: 'Nunito-black';
+	src: url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+}
+
+@font-face {
+    font-family: 'Nunito-extralight';
+    src: url('https://fonts.googleapis.com/css2? family=Nunito:wght@200&display=swap');
+}
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+}
+
+* {
+    text-decoration: center;
+    font-size: 16px;
+}
+
+header {
+	font-family: 'Nunito-bold'; 
+	background-color: white;
+	font-size: 18px;
+}
+
+a {
+	font-family: 'Nunito-bold' !important;
+	text-decoration: none;
+	color: #22193F !important;
+}
+
+.login {
+	font-family: 'Nunito-bold' !important;
+	font-size: 18px;
+	background-color: #E21982 !important;
+	color: white !important;
+	border-radius: 50px !important;
+}
+
+.inicio {
+	justify-content: center;
+	align-content: center;
+	background-image: url(banner-principal.jpg); 
+	width: 100vh;
+	box-shadow: 0%;
+	height: 50vh;
+	background-size: cover;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+h2 {
+	font-family: 'Nunito-extralight';
+	color: #22193F;
+	font-size: 28px;
+}
+
+h1 {
+	font-family: 'Nunito-black';
+	font-size: 40px !important;
+	color: white;
+}
+
+.textoimagen {
+	font-family: 'Nunito-extralight';
+	font-size: 22px;
+	color: white;
+}
+
+.conocenos {
+	color:  #E21982 !important;
+}
+
+h4 {
+	font-family: 'Open Sans Regular';
+	color: #E21982;
+	font-size: 12px;
+	font-weight: bold !important;
+}
+
+p {
+	font-family: 'Open Sans Regular';
+	font-size: 16px;
+}
+
+.Textoayuda {
+	 color: white;
+	 width: 10vh;
+	 height: 10vh;
+}
+
+label {
+	font-family: 'Nunito-extralight';
+	background-color: white !important;
+	color: #22193F !important;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-item label {
+  display: block;
+  padding: 10px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.accordion-item input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.accordion-item input[type="checkbox"]:checked + label {
+  background-color: #ddd;
+}
+
+.accordion-item input[type="checkbox"]:checked ~ .accordion-content {
+  max-height: 500px; /* Ajusta la altura máxima del contenido desplegable */
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+ 
+.aside {
+	background-image: url(banner-secundario.jpg); 
+	width: 100vh;
+	box-shadow: 0%;
+	height: 50vh;
+	background-size: cover;
+}
+
+footer {
+	font-size: 14px;
+    height:50px;
+    line-height:50px;
+    bottom:0;
+    left:0;
+    width:100%;
+}
